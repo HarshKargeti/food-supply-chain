@@ -479,7 +479,9 @@ pre {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -15px;
-  margin-left: -15px; }
+  margin-left: -15px;
+  margin-top: -38px;
+}
 
 .no-gutters {
   margin-right: 0;
@@ -8367,3 +8369,10 @@ h1, h2, h3, h4, h5,
   border: 1px solid rgba(0, 0, 0, 0.1); }
   .form-control:focus, .form-control:active {
     border-color: #000; }
+
+
+    .indeximg{
+  width: 1106px;
+  height: 371px;
+  margin: auto;
+}
