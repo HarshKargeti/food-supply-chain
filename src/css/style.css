@@ -3462,6 +3462,8 @@ input[type="button"].btn-block {
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
+  position: relative;
+  z-index: 1;
   white-space: nowrap; }
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none; }
@@ -8372,7 +8374,13 @@ h1, h2, h3, h4, h5,
 
 
     .indeximg{
-  width: 1106px;
-  height: 371px;
-  margin: auto;
+      width: 1396px;
+      height: 688px;
+      margin: auto;
+      filter: blur(8px);
+      -webkit-filter: blur(2px);
+      margin-top: -285px;
+      margin-left: -33px;
+      margin-bottom: -51px;
 }
+
